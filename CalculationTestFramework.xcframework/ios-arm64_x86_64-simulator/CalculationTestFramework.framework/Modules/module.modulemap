@@ -1,0 +1,11 @@
+framework module CalculationTestFramework {
+  umbrella header "CalculationTestFramework.h"
+  export *
+
+  module * { export * }
+}
+
+module CalculationTestFramework.Swift {
+  header "CalculationTestFramework-Swift.h"
+  requires objc
+}

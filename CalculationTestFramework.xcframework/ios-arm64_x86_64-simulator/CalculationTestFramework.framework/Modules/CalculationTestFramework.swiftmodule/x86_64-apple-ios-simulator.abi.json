@@ -1,0 +1,122 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CalculationTestFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Calculus",
+        "printedName": "Calculus",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Calculus",
+                "printedName": "CalculationTestFramework.Calculus",
+                "usr": "s:24CalculationTestFramework8CalculusC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24CalculationTestFramework8CalculusCACycfc",
+            "mangledName": "$s24CalculationTestFramework8CalculusCACycfc",
+            "moduleName": "CalculationTestFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(num1:num2:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24CalculationTestFramework8CalculusC3add4num14num2S2i_SitF",
+            "mangledName": "$s24CalculationTestFramework8CalculusC3add4num14num2S2i_SitF",
+            "moduleName": "CalculationTestFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "minus",
+            "printedName": "minus(num1:num2:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24CalculationTestFramework8CalculusC5minus4num14num2S2i_SitF",
+            "mangledName": "$s24CalculationTestFramework8CalculusC5minus4num14num2S2i_SitF",
+            "moduleName": "CalculationTestFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24CalculationTestFramework8CalculusC",
+        "mangledName": "$s24CalculationTestFramework8CalculusC",
+        "moduleName": "CalculationTestFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
